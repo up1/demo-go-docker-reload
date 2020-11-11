@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  go-docker:
+    build: .
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./:/app
